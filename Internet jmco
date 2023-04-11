@@ -1,1 +1,18 @@
 
+json
+{
+  "ip": "20.221.238.79",
+  "port": 443,
+  "username": "mi_usuario",
+  "password": "mi_contraseña",
+  "connections": {
+    "Tigo": {
+      "payload": "GET / HTTP/1.1\r\nHost: castro.vpn-flex.xyz\r\nUpgrade: websocket\r\n\r\n",
+      "ssl_address": ["castro.vpn-flex.xyz", 443]
+    },
+    "Claro ": {
+      "payload": "GET / HTTP/1.1\r\nHost: example.com\r\n\r\n",
+      "ssl_address": ["example.com", 443]
+    }
+  }
+}
